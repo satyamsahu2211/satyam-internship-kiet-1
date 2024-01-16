@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #e1691a; 
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+      
+        .nav {
+  background-color: #333;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+        main {
+            max-width: 100%;
+            margin:  auto;
+            padding: 0%;
+        }
+        .heading{
+
+            text-align: center;
+            background-color: rgb(219, 73, 20);
+        }
+        .content{
+            background-color: antiquewhite;
+        }
+       
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+            height: auto;
+            float: left;
+            margin-right: 20px;
+        }
+        section .content1{
+            padding: auto;
+        }
+        .floating-image {
+            width: 100%;
+            max-width: 600px;
+            animation: floatAnimation 4s infinite alternate;
+        }
+
+        @keyframes floatAnimation {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> Kiet Group Of Instiution </h1>
+        <img src="kiet-group-of-institutions.jpg" alt="kiet">
+    </header>
+    <nav>
+        <div class="nav">
+        <a href="">HOME</a>
+        <a href="">FEE</a>
+        <a href="">ABOUT </a>
+        <a href="">CAMPUS</a>
+        <a href="">GRADE</a>
+
+        </div>
+    </nav>
+
+    <main>
+        <section class="heading">
+            <h2>Welcome to Kiet Group of instiution </h2>
+            <div class="content">
+                <p>KIET Group of Institutions is recognized as one of the best engineering colleges in Delhi-NCR. Founded by the members of Krishna Charitable Society in 1998 with a modest number of 180 students, KIET Group of Institutions has now become a pioneer in the technical education domain with a strength of 7500+ students.
+
+                    With a rich alumni base of 19000 + students spread in all the nooks and corners of the world, KIET Group of Institutions is moving efficiently towards its vision of shaping young minds with skill-oriented & value based education as these alumni serve the dual purpose of mentoring the present students, as well as opening new doors for them.
+                    
+                    The institute has gained a distinct image as an outstanding educational colossal among the technical institutions of Uttar Pradesh, due to its inclination towards innovative and skill-based education. Its consistent belief in 'Achieving High' is aptly reflected in its academics, extracurricular activities and placements. The success of its belief is clearly brought out in the plethora of Education Excellence Awards bagged by the institute. The institute has been accredited by NAAC with Grade 'A+' and its programmes (CSE, ECE, EEE, IT, ME, CE, MCA, MBA and Pharmacy) are NBA accredited.</p>
+            </div>
+            
+        </section>
+
+        <section >
+            <h2>Kiet Group Of Intitution</h2>
+            <div class="image-container">
+                <img src="kiet.webp" alt="College Image" class="floating-image">
+              
+            </div>
+        </section>
+        <section class="content1">
+            <h2>Computer Science</h2>
+            <P>Department of Computer Science was established in the year 2018, with the objective of imparting quality education in the field of Computer sciences. The department aims to be the Centre of Excellence in providing international standard education and consultation in the field of computer science and thus targets to produce globally competent and self disciplined computer engineers. With rapidly evolving technology and continuous need for innovation, the department has always produced quality professionals, holding important positions in information technology industry in India and abroad.</P>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 College Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
