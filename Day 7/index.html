@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="todo">
+        <h2>TO DO LIST</h2>
+        <h3>Add Item</h3>
+        <input type="text" placeholder="Add item in this field" id="task" required>
+        <div>
+            <button type="button" class="reset" onclick="resetForm()">Reset</button>
+            <button type="submit" class="button" onclick="addItem()">Add Task</button>
+           <ul id="todolist"></ul>
+        </div>
+        
+        </div>
+        <script src="script.js"></script>
+        
+</body>
+</html>

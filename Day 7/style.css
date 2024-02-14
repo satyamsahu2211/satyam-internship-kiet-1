@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 150px;
+
+}
+.todo{
+    height: max-content;
+    width: 300px;
+    padding: 20px;
+    border-style: groove;
+    box-sizing: border-box;
+    border-width: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-image: linear-gradient(60deg,orange,white,green);
+}
+.button{
+    margin: 15px;
+    background-image: linear-gradient(90deg,red,white,yellow);
+}
+.reset{
+    margin: 15px;
+    background-image: linear-gradient(90deg,red,white,yellow);
+}
